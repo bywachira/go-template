@@ -1,16 +1,14 @@
 
 # go-template
 
-A barebones Go app, which can easily be deployed to Heroku.
-
-This application supports the [Getting Started with Go on Heroku](https://devcenter.heroku.com/articles/getting-started-with-go) article - check it out.
+A barebones Go app, which can easily be deployed to Dokku.
 
 ## Running Locally
 
-Make sure you have [Go](http://golang.org/doc/install) version 1.12 or newer and the [Heroku Toolbelt](https://toolbelt.heroku.com/) installed.
+Make sure you have [Go](http://golang.org/doc/install) version 1.12 or newer
 
 ```sh
-$ git clone https://github.com/heroku/go-template.git
+$ git clone https://github.com/bywachira/go-template.git
 $ cd go-template
 $ go build -o bin/go-template -v . # or `go build -o bin/go-template.exe -v .` in git bash
 github.com/mattn/go-colorable
@@ -28,21 +26,7 @@ $ heroku local
 
 Your app should now be running on [localhost:5000](http://localhost:5000/).
 
-## Deploying to Heroku
-
-```sh
-$ heroku create
-$ git push heroku main
-$ heroku open
-```
-
-or
-
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
-
-
 ## Documentation
 
-For more information about using Go on Heroku, see these Dev Center articles:
+For more information about using Go on Dokku, see these Dev Center articles:
 
-- [Go on Heroku](https://devcenter.heroku.com/categories/go)
