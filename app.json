@@ -1,5 +1,5 @@
 {
-  "name": "Start on Heroku: Go",
+  "name": "Start on Dokku: Go",
   "description": "Go Getting Started Example App",
   "keywords": [
     "getting-started",
@@ -7,6 +7,6 @@
     "sample",
     "example"
   ],
-  "website": "http://github.com/heroku/go-getting-started",
-  "repository": "http://github.com/heroku/go-getting-started"
+  "website": "https://github.com/bywachira/go-template.git",
+  "repository": "https://github.com/bywachira/go-template.git"
 }
